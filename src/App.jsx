@@ -13,7 +13,6 @@ const App = () => {
         background: "#262626",
       }}
     >
-      
       <PDF />
     </div>
   );
