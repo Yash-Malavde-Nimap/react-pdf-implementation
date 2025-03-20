@@ -1,0 +1,59 @@
+.pdf-container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  color: #b4b4b4;
+  box-shadow: 0 0 20px rgb(255, 109, 109, 0.2);
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.pdf-page {
+  width: 100%;
+  height: auto;
+}
+
+/* URL INPUT */
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #b95959;
+  border-radius: 5px;
+  width: 420px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
+  color: #ffadad;
+}
+
+input:focus {
+  border: 2px solid #ffadad;
+  /* box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); */
+}
+
+input::placeholder {
+  color: #b4b4b4;
+}
+
+/* FILE INPUT */
+label{
+  /* margin-top: 200px; */
+  color: #ffadad;
+  font-size: 14px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  color: #ffadad;
+  outline: none;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  background: #b95959;
+  color: #b2b2b2;
+  padding: 0.5em;
+  
+}
